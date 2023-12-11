@@ -1,0 +1,126 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3yGg5boZJ-v-oPkZr93mwE_y3Qo1Mm1Tn3w&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+    margin-top: 20px;
+    align-items: left;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo {
+    color: rgb(255, 157, 0);
+    font-family: propmt;
+    font-size: 2rem;
+    
+}
+
+hr {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(0, 229, 255);
+    border: 2px solid rgb(204, 225, 12);
+}
+
+        .fetchDate-container {
+            display: inline-block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 190px;
+            height: 320px;
+            vertical-align: top;
+            margin: 10px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.364);
+            border-radius: 10px 10px;
+        }
+
+        .fetchDate-container h3, h4 {
+            color: rgb(0, 0, 255);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-shadow: 2px 2px 5px rgb(26, 155, 206) ;
+           
+        }
+    
+    .fetchDate-container > p
+    {
+        font-size: 15px;
+        
+    }
+    
+    .weather-icon {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+    
+    .fetchDate-container hr {
+        border: none;
+        border-top: 2px solid rgb(26, 155, 206);
+        border-bottom: 2px solid rgb(26, 155, 206);
+    }
+    .container {
+            padding: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            
+        }
+        .container > h1{
+            font-size: 20px;
+            font-family: cursive;
+            text-align: center;
+            color: rgb(212, 255, 0);
+            letter-spacing:.3rem;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            max-width: 300px;
+            margin: 0 auto;
+
+            align-items: center;
+            padding: 10px;
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgb(26, 155, 206);
+        }
+
+        .search-bar input[type="text"] {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search-bar button {
+            padding: 8px 15px 10px;
+            border: none;
+            background-color: rgb(255, 157, 0);
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-bar button:hover {
+            background-color: var(--blue-dark);
+   
+        } 
